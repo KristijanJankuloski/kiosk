@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.15.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.15.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kiosk.DataAccess\Kiosk.DataAccess.csproj" />
+    <ProjectReference Include="..\Kiosk.Domain\Kiosk.Domain.csproj" />
+    <ProjectReference Include="..\Kiosk.DTOs\Kiosk.DTOs.csproj" />
+    <ProjectReference Include="..\Kiosk.Mappers\Kiosk.Mappers.csproj" />
+    <ProjectReference Include="..\Kiosk.Shared\Kiosk.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
