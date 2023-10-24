@@ -1,9 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
+import { StoreModule } from '@ngrx/store';
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { RouterModule } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
+import { userReducer } from './state';
 
 
 
@@ -12,7 +16,12 @@ import { SharedModule } from '../shared/shared.module';
   imports: [
     CommonModule,
     SharedModule,
-    RouterModule
+    RouterModule,
+    StoreModule.forRoot({ user: userReducer }),
+    StoreDevtoolsModule.instrument({
+      name: 'Kiosk App',
+      maxAge: 25,
+    }),
   ],
   exports: [HeaderComponent, FooterComponent]
 })

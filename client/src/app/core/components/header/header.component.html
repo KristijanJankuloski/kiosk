@@ -1,15 +1,21 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><span class="display-6">Kiosk</span></a>
+      <a class="navbar-brand" routerLink="/"><span class="display-6">Kiosk</span></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" routerLink="/" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+          <a class="nav-link" routerLink="/products" [routerLinkActive]="['active']">Menu</a>
           <a class="nav-link" href="#">Pricing</a>
         </div>
+        <div class="d-lg-none">
+          <button class="btn btn-lg btn-outline-light" routerLink="/login"><i class="bi bi-person-fill"></i> Login</button>
+        </div>
+      </div>
+      <div class="d-none d-lg-block">
+        <button class="btn btn-outline-light" routerLink="/login"><i class="bi bi-person-fill"></i> Login</button>
       </div>
     </div>
   </nav>
