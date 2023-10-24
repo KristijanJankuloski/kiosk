@@ -5,19 +5,24 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kiosk.Api", "Kiosk.Api\Kiosk.Api.csproj", "{092B69E1-FE98-40AA-A0CE-7E685CD58C9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kiosk.Domain", "Kiosk.Domain\Kiosk.Domain.csproj", "{E9791E87-8B9E-4387-B2B2-D99F4C4CBA7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kiosk.Domain", "Kiosk.Domain\Kiosk.Domain.csproj", "{E9791E87-8B9E-4387-B2B2-D99F4C4CBA7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kiosk.Helpers", "Kiosk.Helpers\Kiosk.Helpers.csproj", "{96101FB5-A5CF-4EB1-8EC3-C0564AF260A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kiosk.Helpers", "Kiosk.Helpers\Kiosk.Helpers.csproj", "{96101FB5-A5CF-4EB1-8EC3-C0564AF260A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kiosk.Services", "Kiosk.Services\Kiosk.Services.csproj", "{7B37D8F3-BE7A-42F7-815D-FBFE8D9C8B64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kiosk.Services", "Kiosk.Services\Kiosk.Services.csproj", "{7B37D8F3-BE7A-42F7-815D-FBFE8D9C8B64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kiosk.DataAccess", "Kiosk.DataAccess\Kiosk.DataAccess.csproj", "{BB113BFE-A881-4A29-B33C-77B114F03405}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kiosk.DataAccess", "Kiosk.DataAccess\Kiosk.DataAccess.csproj", "{BB113BFE-A881-4A29-B33C-77B114F03405}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kiosk.Mappers", "Kiosk.Mappers\Kiosk.Mappers.csproj", "{BC224CB9-025D-4A6C-954E-D9B939ABCF26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kiosk.Mappers", "Kiosk.Mappers\Kiosk.Mappers.csproj", "{BC224CB9-025D-4A6C-954E-D9B939ABCF26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kiosk.Shared", "Kiosk.Shared\Kiosk.Shared.csproj", "{29D532F4-C1D2-45E1-94E3-4312B0D3C9FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kiosk.Shared", "Kiosk.Shared\Kiosk.Shared.csproj", "{29D532F4-C1D2-45E1-94E3-4312B0D3C9FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kiosk.DTOs", "Kiosk.DTOs\Kiosk.DTOs.csproj", "{D4F202CD-476B-4A8E-A3CE-D9B5198E6B34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kiosk.DTOs", "Kiosk.DTOs\Kiosk.DTOs.csproj", "{D4F202CD-476B-4A8E-A3CE-D9B5198E6B34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DAD8E9E7-F2D9-4D49-98F2-CB9808E2F7C8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
